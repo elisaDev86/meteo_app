@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Merriweather+Sans&family=Montserrat&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url('clouds.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+    
+    .data_container{
+        height: auto;
+        width: 60%;
+        margin: 0 auto;
+        color: #3D246C;
+        background-color: rgba(128, 164,252, 0.4);
+        border-radius: 20px;
+    }
+
+    input{
+        outline: none;
+        border: none;
+        border-radius: 3px;
+    }
